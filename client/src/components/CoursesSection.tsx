@@ -122,6 +122,112 @@ const courses: Course[] = [
       "ใช้งานได้จริงในชีวิตประจำวัน",
     ],
   },
+  {
+    id: 7,
+    title: "หลักสูตรทรีตเมนต์กดสิว",
+    titleEn: "Acne Treatment",
+    duration: "1 วัน",
+    price: "4,990",
+    originalPrice: "",
+    discount: "",
+    suitable: "ผู้ที่ต้องการให้บริการรักษาสิว และเริ่มต้นเปิดร้านของตนเอง (สำหรับร้านที่ไม่มีแพทย์)",
+    highlights: [
+      "เรียนรู้เทคนิคการทรีตเมนต์กดสิวอย่างถูกวิธี",
+      "เหมาะสำหรับร้านที่ไม่มีแพทย์",
+      "พร้อมเปิดให้บริการได้ทันทีหลังเรียนจบ",
+    ],
+  },
+  {
+    id: 8,
+    title: "หลักสูตรพนักงานทรีตเมนต์ความงามพื้นฐาน",
+    titleEn: "Basic Beauty Treatment",
+    duration: "3 วัน",
+    price: "19,990",
+    originalPrice: "",
+    discount: "",
+    suitable: "ผู้ที่ต้องการเปิดร้านความงามเอง หรือเริ่มต้นในสายงานนี้ (สำหรับร้านที่ไม่มีแพทย์)",
+    highlights: [
+      "เรียนรู้การใช้เครื่องมือและการให้บริการครบวงจร",
+      "เหมาะสำหรับร้านที่ไม่มีแพทย์",
+      "พร้อมเปิดร้านความงามของตนเองได้",
+    ],
+  },
+  {
+    id: 9,
+    title: "หลักสูตรการเปิดธุรกิจคลินิกความงาม",
+    titleEn: "Beauty Clinic Business",
+    duration: "1 วัน",
+    price: "9,990",
+    originalPrice: "",
+    discount: "",
+    suitable: "นักลงทุน / เจ้าของคลินิก / แพทย์ (สำหรับคลินิกที่มีแพทย์ดำเนินการ)",
+    highlights: [
+      "แนวทางเริ่มต้นธุรกิจคลินิกความงามสู่ความสำเร็จ",
+      "ทางลัดของคนที่สนใจอยากเปิดธุรกิจคลินิกความงาม",
+      "พร้อม Workshop ลงมือทำจริง",
+      "เทคนิคสำคัญในยุคปัจจุบัน",
+    ],
+  },
+  {
+    id: 10,
+    title: "หลักสูตรการปิดการขายสำหรับทีมเซลล์คลินิก",
+    titleEn: "Sales Closing for Clinic",
+    duration: "1 วัน",
+    price: "3,990",
+    originalPrice: "",
+    discount: "",
+    suitable: "คลินิกที่มีทีมเซลล์และต้องการยกระดับทีม (สำหรับคลินิกที่มีแพทย์ดำเนินการ)",
+    highlights: [
+      "พัฒนาทักษะการขายอย่างมืออาชีพ",
+      "เพิ่มยอดและศักยภาพทีมในทุกๆด้าน",
+      "พร้อม Workshop ฝึกปฏิบัติจริง",
+    ],
+  },
+  {
+    id: 11,
+    title: "หลักสูตรการทำงานสายคลินิกความงามเบื้องต้น",
+    titleEn: "Clinic Career Basics",
+    duration: "1 วัน",
+    price: "3,990",
+    originalPrice: "",
+    discount: "",
+    suitable: "ผู้ที่ต้องการเริ่มต้นอาชีพในคลินิกความงาม (สำหรับคลินิกที่มีแพทย์ดำเนินการ)",
+    highlights: [
+      "ปูพื้นฐานความรู้สำคัญก่อนเริ่มงานจริง",
+      "ความรู้เบื้องต้นที่ควรมีในการทำงานสายคลินิก",
+      "พร้อม Workshop เพื่อต่อยอดอาชีพ",
+    ],
+  },
+  {
+    id: 12,
+    title: "หลักสูตรออนไลน์ รู้ก่อน รวยก่อน ธุรกิจความงามสู่ตัว TOP",
+    titleEn: "Online: Beauty Biz to TOP",
+    duration: "2 ชั่วโมง",
+    price: "590",
+    originalPrice: "",
+    discount: "",
+    suitable: "นักลงทุน / เจ้าของคลินิก / แพทย์ / บุคคลทั่วไป (สำหรับคลินิกที่มีแพทย์ดำเนินการ)",
+    highlights: [
+      "เจาะลึกระบบธุรกิจ เทคนิคสำคัญก่อนเปิดคลินิกจริง",
+      "ทางลัดที่ทำให้การเปิดคลินิกง่ายขึ้น",
+      "เรียนออนไลน์ได้ทุกที่ ทุกเวลา",
+    ],
+  },
+  {
+    id: 13,
+    title: "หลักสูตรผู้จัดการคลินิกเบื้องต้น",
+    titleEn: "Basic Clinic Manager",
+    duration: "1 วัน",
+    price: "9,990",
+    originalPrice: "",
+    discount: "",
+    suitable: "นักลงทุน / เจ้าของคลินิก / แพทย์ / ผู้สนใจเป็นผู้จัดการ (สำหรับคลินิกที่มีแพทย์ดำเนินการ)",
+    highlights: [
+      "พัฒนาทักษะการบริหารจัดการคลินิกอย่างมืออาชีพ",
+      "ทำอย่างไรให้คลินิกประสบความสำเร็จในยุคปัจจุบัน",
+      "เหมาะสำหรับผู้ที่ต้องการก้าวสู่ตำแหน่งผู้จัดการ",
+    ],
+  },
 ];
 
 function CourseCard({ course, index }: { course: Course; index: number }) {
@@ -138,16 +244,18 @@ function CourseCard({ course, index }: { course: Course; index: number }) {
       }`}
     >
       {/* Discount Badge - top right */}
-      <div className="absolute top-0 right-0 z-10">
-        <div className={`flex items-center gap-1 px-3 py-1.5 text-[10px] font-bold tracking-wider ${
-          course.featured
-            ? "bg-gold text-navy"
-            : "bg-navy text-gold"
-        }`}>
-          <BadgePercent className="w-3 h-3" />
-          ลด {course.discount}
+      {course.discount && (
+        <div className="absolute top-0 right-0 z-10">
+          <div className={`flex items-center gap-1 px-3 py-1.5 text-[10px] font-bold tracking-wider ${
+            course.featured
+              ? "bg-gold text-navy"
+              : "bg-navy text-gold"
+          }`}>
+            <BadgePercent className="w-3 h-3" />
+            ลด {course.discount}
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="p-6 lg:p-8">
         {/* Header */}
@@ -167,9 +275,11 @@ function CourseCard({ course, index }: { course: Course; index: number }) {
             <span>{course.duration}</span>
           </div>
           <div className="ml-auto text-right">
-            <p className="text-navy/40 text-xs line-through">
-              {course.originalPrice}฿
-            </p>
+            {course.originalPrice && (
+              <p className="text-navy/40 text-xs line-through">
+                {course.originalPrice}฿
+              </p>
+            )}
             <p className="font-serif text-2xl font-bold text-gold-dark">
               {course.price}
               <span className="text-sm font-sans font-normal text-navy/50">฿</span>
